@@ -1,4 +1,7 @@
 class GameController < ApplicationController
-  def index
-  end
+
+    def index
+      render file: 'public/index.html'
+    end
+    
 end
